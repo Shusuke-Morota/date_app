@@ -20,7 +20,8 @@
     <div class="container">
         <script>
             var today = new Date();
-            document.write('<p>今日は、' + today.getDate() + '日です。</p >')
+            var todayHTML = today.getFullYear() + '/' + (today.getMonth() + 1) + '/' + today.getDate();
+            document.write('<p class="date">今日は、' + todayHTML + '</p >')
         </script>
     </div>
 </body>
