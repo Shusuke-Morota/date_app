@@ -18,7 +18,10 @@
         <h1>TODAY</h1>
     </header>
     <div class="container">
-        <p class="date">20xx/01/23</p>
+        <script>
+            var today = new Date();
+            document.write('<p>今日は、' + today.getDate() + '日です。</p >')
+        </script>
     </div>
 </body>
 
